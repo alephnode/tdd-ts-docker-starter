@@ -1,4 +1,4 @@
-# Docker Sanity
+# TDD TS Docker Starter Kit
 
 Playground for getting the Node + TypeScript + Docker formula right
 
