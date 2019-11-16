@@ -1,7 +1,10 @@
 # TDD TS Docker Starter Kit
 
-Playground for getting the Node + TypeScript + Docker formula right
+Starter kit for new Node-based back-end projects.
 
-TODO:
-- hook into AWS
-- Keep test Docker container active during development (done but don't break)
+Opinions:
+- Node for app development 
+- Express for RESTful endpoints 
+  CAVEAT: This is a starter for microservices. GraphQL is superior for client-facing APIs
+- TypeScript for type safety and optimal DX
+- Docker for deployment and dev/prod parity
