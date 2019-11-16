@@ -5,12 +5,12 @@ services:
     build: .
     image: tdd-ts-docker-starter
     command: yarn start
-    expose:
-      - 8000
+    ports:
+      - "8000:8000"
 
   tdd-ts-docker-starter-tests:
     image: tdd-ts-docker-starter
-    command: yarn test
+    command: yarn test -o --watch
     environment:
       APP_URL: http://tdd-ts-docker-starter:8000
     depends_on:
