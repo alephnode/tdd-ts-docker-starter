@@ -4,7 +4,7 @@ import app from './index'
 describe('Default (/)', () => {
   it('greets us on request', async () => {
     const res = await get(`/`).expect(200)
-    expect(res.text).toBe('Hello Wand!')
+    expect(res.text).toBe('Hello World!')
   })
 })
 
