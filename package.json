@@ -9,8 +9,7 @@
   },
   "scripts": {
     "build": "tsc && docker-compose up --build --abort-on-container-exit",
-    "ts-watch": "tsc -w",
-    "start": "npx nodemon dist/index.js",
+    "start": "npx nodemon --watch 'src/**/*' --exec 'ts-node' src/index.ts",
     "test": "npx jest",
     "format": "npx prettier --write '**/*.js'"
   },
