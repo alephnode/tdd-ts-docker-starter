@@ -20,4 +20,4 @@ To install dependencies, run:
 
 For local development: 
 
-`yarn build`
+`yarn dev`
